@@ -1,0 +1,4 @@
+#! /bin/bash
+
+gcc "lib/main.c" -o "lib/pathFinder.so" --shared -fPIC -Wall -lm
+python3 "main.py"
